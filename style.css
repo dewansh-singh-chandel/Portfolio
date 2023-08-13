@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+.sidebar{
+    background-color: darkgray;
+    
+    font-family: 'Roboto Mono', monospace;
+    height:100dvh;
+    width: 20vw;
+
+}
+.main{
+
+    /* yellow; */
+    
+    width: 80vw;
+    height:100dvh;
+}
+.info{
+
+    
+    
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info img{
+    height: 60vh;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-right: 5px; 
+    
+    /* 
+    
+    
+    
+     */
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(236, 179, 101);
+}
+
+
+
+
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Intro{
+    font-size: 35px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace
+}
+.name{
+    font-size: 35px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace
+
+}
+.about{
+    font-size: 20px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace
+}
+.btn{
+    margin-top: 30px;
+    padding: 9px;
+    border-radius: 25px;
+    color: rgb(236, 179, 101);
+    
+    font-size: 15px;
+    margin: 30px 13px 0px 1px;
+    cursor: pointer;
+}
+.btn-sm{
+    margin-top: 30px;
+    padding: 9px;
+    align-self: center;
+    border-radius: 25px;
+    color: rgb(236, 179, 101);
+    
+    font-size: 15px;
+    margin: 9px 13px 0px 1px;
+    cursor: pointer;
+}
+
+.btn-sm:hover{
+
+
+    background-color: aqua(236, 179, 101);
+    color: black;
+
+}
+.contact button:hover{
+    background-color: aqua(236, 179, 101);
+    color: black;
+}
+
+.contactform{
+    font-family: 'Roboto Mono', monospace;
+    padding: 0 34px;
+    padding-top: 100px ;
+    color: rgb(236, 179, 101);
+
+}
+
+.contactform h1{
+
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 15px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contactform input{
+    width: 20vw;
+    border-radius: 5px;
+    align-self: center;
+    
+
+}
+.contactform label{
+    font-size: 15px;
+
+}
+
+
+#emailHelp{
+    font-size: 10px;
+    color: lavenderblush;
+    padding: 0px 0;
+}
+#Email{
+    padding: 0 0;
+
+}
+#form-check {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.form-check-label{
+
+    text-align: center;
+}
+#form-check input {
+    width: 20px;
+    margin: 2px 0;
+    align-self: center;
+}
+#phone{
+    padding: 0 0;
+}
+
+.project-details{
+    color: rgb(236, 179, 101);
+
+    padding-top: 100px ;
+    padding-left: 100px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+}
+.project-details h1{
+
+    
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer footer{
+    flex-direction: column;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.about1{
+
+    padding: 0px 20px 0 20px;
+
+    width: 60vw;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: auto;
+    border-radius: 10px;
+    
+    margin-top: 100px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;
+
+}
+.about2{
+
+    padding: 0px 20px 0 20px;
+
+    width: 60vw;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: auto;
+    border-radius: 10px;
+    
+    margin-top: 100px;
+    color: rgb(236, 179, 101);
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;
+
+}
+
